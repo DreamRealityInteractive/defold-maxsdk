@@ -92,11 +92,15 @@ static const int EVENT_FAILED_TO_LOAD_WATERFALL = 15;;
             // Start loading ads
             [self sendDefoldEvent: MSG_INITIALIZATION event_id: EVENT_COMPLETE parameters: @{@"plugin":@"defold-maxsdk"}];
         }];
-        [[DTBAds sharedInstance] setAppKey: amazonAppId];
-        DTBAdNetworkInfo *adNetworkInfo = [[DTBAdNetworkInfo alloc] initWithNetworkName: DTBADNETWORK_MAX];
-        [DTBAds sharedInstance].mraidCustomVersions = @[@"1.0", @"2.0", @"3.0"];
-        [[DTBAds sharedInstance] setAdNetworkInfo: adNetworkInfo];
-        [DTBAds sharedInstance].mraidPolicy = CUSTOM_MRAID;
+
+        if (amazonAppId && amazonAppId.length > 0)
+        {
+            [[DTBAds sharedInstance] setAppKey: amazonAppId];
+            DTBAdNetworkInfo *adNetworkInfo = [[DTBAdNetworkInfo alloc] initWithNetworkName: DTBADNETWORK_MAX];
+            [DTBAds sharedInstance].mraidCustomVersions = @[@"1.0", @"2.0", @"3.0"];
+            [[DTBAds sharedInstance] setAdNetworkInfo: adNetworkInfo];
+            [DTBAds sharedInstance].mraidPolicy = CUSTOM_MRAID;
+        }
     }
     return self;
 }
