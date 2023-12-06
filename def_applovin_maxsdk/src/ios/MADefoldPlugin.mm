@@ -1,3 +1,5 @@
+#if defined(DM_PLATFORM_IOS)
+
 #include <dmsdk/sdk.h>
 #import "MADefoldPlugin.h"
 
@@ -939,3 +941,5 @@ static const int EVENT_FAILED_TO_LOAD_WATERFALL = 15;;
 }
 
 @end
+
+#endif
