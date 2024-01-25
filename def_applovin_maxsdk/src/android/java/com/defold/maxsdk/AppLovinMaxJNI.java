@@ -113,10 +113,10 @@ public class AppLovinMaxJNI {
     }
 
     public void initialize(String AmazonAppId) {
-        AdRegistration.getInstance(AmazonAppId, mActivity);
-        AdRegistration.setAdNetworkInfo(new DTBAdNetworkInfo(DTBAdNetwork.MAX));
-        AdRegistration.setMRAIDSupportedVersions(new String[]{"1.0", "2.0", "3.0"});
-        AdRegistration.setMRAIDPolicy(MRAIDPolicy.CUSTOM);
+        //AdRegistration.getInstance(AmazonAppId, mActivity);
+        //AdRegistration.setAdNetworkInfo(new DTBAdNetworkInfo(DTBAdNetwork.MAX));
+        //AdRegistration.setMRAIDSupportedVersions(new String[]{"1.0", "2.0", "3.0"});
+        //AdRegistration.setMRAIDPolicy(MRAIDPolicy.CUSTOM);
 
 
         AppLovinSdk.getInstance(mActivity).setMediationProvider(AppLovinMediationProvider.MAX);
