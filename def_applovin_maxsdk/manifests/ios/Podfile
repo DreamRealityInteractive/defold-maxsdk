@@ -1,4 +1,4 @@
-platform :ios, '12.4'
+platform :ios, '11.0'
 pod 'AppLovinSDK','11.11.3'
 
 pod 'AppLovinMediationAmazonAdMarketplaceAdapter', '4.7.5.0'
