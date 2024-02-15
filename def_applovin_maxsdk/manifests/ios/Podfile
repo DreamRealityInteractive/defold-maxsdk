@@ -1,8 +1,8 @@
 platform :ios, '11.0'
 pod 'AppLovinSDK','11.11.3'
 
-pod 'AppLovinMediationAmazonAdMarketplaceAdapter', '4.7.5.0'
-pod 'AmazonPublisherServicesSDK', '4.7.5'
+#pod 'AppLovinMediationAmazonAdMarketplaceAdapter', '4.7.5.0'
+#pod 'AmazonPublisherServicesSDK', '4.7.5'
 
 {{#applovin.MintegralAdapter}}
 pod 'AppLovinMediationMintegralAdapter', '7.4.3.0.0' 
