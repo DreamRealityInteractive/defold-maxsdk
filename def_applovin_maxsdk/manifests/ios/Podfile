@@ -37,7 +37,7 @@ pod 'AppLovinMediationMyTargetAdapter', '5.19.0.0'
 {{/applovin.MyTargetAdapter}}
 
 {{#applovin.UnityAdsAdapter}}
-pod 'AppLovinMediationUnityAdsAdapter', '4.8.0.1' 
+pod 'AppLovinMediationUnityAdsAdapter', '4.9.2.1' 
 {{/applovin.UnityAdsAdapter}}
 
 {{#applovin.OguryPresageAdapter}}
