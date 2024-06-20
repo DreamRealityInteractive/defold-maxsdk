@@ -662,5 +662,17 @@
 		    <key>SKAdNetworkIdentifier</key>
 		    <string>6yxyv74ff7.skadnetwork</string>
 		</dict>
+		<dict>
+		    <key>SKAdNetworkIdentifier</key>
+		    <string>55644vm79v.skadnetwork</string>
+		</dict>
+		<dict>
+		    <key>SKAdNetworkIdentifier</key>
+		    <string>g6gcrrvk4p.skadnetwork</string>
+		</dict>
+		<dict>
+		    <key>SKAdNetworkIdentifier</key>
+		    <string>mqn7fxpca7.skadnetwork</string>
+		</dict>
 	</array>
 </plist>
